@@ -1,48 +1,79 @@
 body {
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 1em;
-    text-align: center;
+    font-size: 1.5em;
     margin: 0;
 }
 
-/* HEADER */
-
-h1 {
-    font-family: 'Yeseva One', cursive;
-    font-size: 2.9em;
+.container {
+    margin-top: 50px;
 }
 
-.logo {
-    margin-top: 20px;
-    margin-bottom: 10px;
+h4 {
+    font-family: 'Abril Fatface', cursive;
+}
+
+.card {
+    border: none;
 }
 
 /* NAVBAR */
 
 .navbar-brand a {
-    font-family: 'Yeseva One', cursive;
-    color: black;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 1.5em;
+    color: #302929;
+    text-decoration: none;
+}
+
+.navbar-brand a:hover {
+    color: #E27377;
 }
 
 a.nav-link {
+    font-family: 'B612', sans-serif;
     color: #302929;
     font-size: .9em;
-    text-transform: uppercase;
     font-weight: bold;
     padding-right: 20px;
 }
 
 a:hover.nav-link {
-    color: #E2282F;
+    color: #FFE47A;
     font-weight: bolder;
 }
 
 a.active {
-    color: #E2282F;
+    color: #E27377;
 }
+
 
 /* PORTFOLIO */
 
+.portfolio {
+    background-color: #FFE47A;
+}
+
 .card-columns {
     margin-top: 50px;
+}
+
+/* SERVICES */
+
+.services {
+    background-color: #FFAF9B;
+}
+
+#service-text {
+    margin-top: 150px;
+}
+
+/* ABOUT */
+.mariel {
+    backround-color: #FFEFE0;
+}
+
+/*CONTACT*/
+
+.contact {
+    background-color: #FFCCCE;
 }
