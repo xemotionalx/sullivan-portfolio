@@ -1,102 +1,48 @@
 body {
-    background-color: #ffffff;
-    color: #2e2e2e;
-    font-family: 'Work Sans', sans-serif; 
-    text-align: center;
-    margin: 0 auto;
-}
-
-clearfix::after {
-    content: " ";
-    display: block;
-    clear: both;
-}
-
-button {
-    background-color: #ffffff;
-    color: #f358cf;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 1em;
+    text-align: center;
+    margin: 0;
+}
+
+/* HEADER */
+
+h1 {
+    font-family: 'Yeseva One', cursive;
+    font-size: 2.9em;
+}
+
+.logo {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* NAVBAR */
+
+.navbar-brand a {
+    font-family: 'Yeseva One', cursive;
+    color: black;
+}
+
+a.nav-link {
+    color: #302929;
+    font-size: .9em;
     text-transform: uppercase;
-    border: none;
-    border-right: 2px solid gray;
-    margin-bottom: 50px;
-    padding-left: 10px;
+    font-weight: bold;
+    padding-right: 20px;
 }
 
-.active {
-    color: #000000;
+a:hover.nav-link {
+    color: #E2282F;
+    font-weight: bolder;
 }
 
-.container {
-    min-height: calc(100vh - 70px);
+a.active {
+    color: #E2282F;
 }
 
-.footer {
-    background-color: lightgray;
-    font-size: .8em;
-    height: 50px;
-    padding-top: 15px; 
-    padding-bottom: 15px;
+/* PORTFOLIO */
+
+.card-columns {
+    margin-top: 50px;
 }
-
-/* index */
-.slideshow {
-    max-width: 100%;
- }
-
- /* about */
-
- .content {
-     max-width: 850px;
-     margin: 0 auto;
-     min-height: 100%;
-     margin-bottom: 20px;
-     display: display: grid | inline-grid;
-     grid-template-columns: [left] 200px [right] auto;
-     grid-template-rows: 300px;
-     
- }
-
- .left {
-    max-width: 300px;
-    height: 100%;
- }
-
- .right {
-    background-color: red;
-    max-width: 488px;
-    height: 100%;
-    padding-left: 10px; 
-    text-align: left;
- }
-
- /* about */
- #headshot { 
-    width: 200px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
- }
-
- /* services */
-
- .service {
-     float: left;
- }
-
- #ser-1 {
-     max-width: 150px;
- }
-
- #ser-2 {
-    max-width: 500px;
-}
-
- #ser-3 {
-    max-width: 200px;
-}
-
-
-
-
